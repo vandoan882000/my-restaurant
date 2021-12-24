@@ -87,7 +87,7 @@ addToCart(product){
       return (
           <div className="orderdiv">
               <div className="orderdiv1">
-                  <div><Link to="/login"><span className="order-menu-type" onClick={this.onCloseCard}><i className="fas fa-user-circle"></i>&nbsp;&nbsp;Hi,Guest</span></Link><br /></div>
+                  <div><Link to="/my-restaurant/login"><span className="order-menu-type" onClick={this.onCloseCard}><i className="fas fa-user-circle"></i>&nbsp;&nbsp;Hi,Guest</span></Link><br /></div>
                   <hr/>
                   <div onClick={this.clickDropDownType} >
                     <span className="order-menu-type" onClick={this.clickDropDownType}>Our Way, Our Menu </span>{this.state.isDropType?<i className="fas fa-chevron-down"></i>:<i className="fas fa-chevron-up"></i>}<hr/>
@@ -120,7 +120,7 @@ addToCart(product){
                   <hr/>
                   
                   <p>Subtotal&nbsp;&nbsp;&nbsp;&nbsp; ${this.state.subtotal}</p><hr/>
-                  <Link to="/login">
+                  <Link to="/my-restaurant/login">
                     <button className="btn-order">ORDER NOW</button>
                   </Link>
                   

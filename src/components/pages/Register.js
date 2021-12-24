@@ -9,7 +9,7 @@ export default class Register extends Component {
                 <input  type="email"  placeholder='Tài khoản' title="Username" ></input>
                 <input  type="password" placeholder="Mật khẩu" title="Password"></input>
                 <input  type="password" placeholder="Mật khẩu nhập lại" title="Password"></input>
-                <Link to='/login'>
+                <Link to='/my-restaurant/login'>
                     <button type="submit">Đăng kí</button>
                 </Link>
                 

@@ -10,7 +10,7 @@ export default class Login extends Component {
                 <input  type="password" placeholder="Mật khẩu" title="Password"></input>
                 <button type="submit">Đăng nhập</button>
                 Bạn chưa có tài khoản ?
-                <Link to='/register'>
+                <Link to='/my-restaurant/register'>
                   đăng kí
                 </Link>
             </div>

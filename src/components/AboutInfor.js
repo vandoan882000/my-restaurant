@@ -54,7 +54,7 @@ class AboutInfor extends React.Component {
                         <img src="img-restaurant1.png" alt="book online"></img>
                         <p>Order Online</p>
                         <h1>Our Noodles Are <br/>Coming Your Way</h1>
-                        <Link to="/order">
+                        <Link to="/my-restaurant/order">
                             <button className="btn-reservations">Order Now</button>
                         </Link>
                     </div>

@@ -57,30 +57,30 @@ class Navbar extends React.Component {
                 <nav className="navbar">
                     
                     <div className="container">
-                        <Link className="navbar-logo" to="/">
-                             <img src='logoPage.png' alt="logo" />MY <br/>RESTAURANT
+                        <Link className="navbar-logo" to="/my-restaurant/">
+                             <img src='./assets/logoPage.png' alt="logo" />MY <br/>RESTAURANT
                         </Link>
                         <div className={this.state.mobileScreen?"container-nav":"container-nav-hidden"}>
                             <div className="nav-div">
                                 <ul className="nav-menu">
                                     <li className="nav-item" onClick={this.scrollToAbout}>
-                                        <Link className="nav-link" to="/" onClick={this.scrollToAbout}>About</Link>
+                                        <Link className="nav-link" to="/my-restaurant/" onClick={this.scrollToAbout}>About</Link>
                                     </li>
                                     <li className="nav-item" onClick={this.setMobileScreen} >
-                                        <Link className="nav-link" to="/menu">Menu</Link>
+                                        <Link className="nav-link" to="/my-restaurant/menu">Menu</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/" onClick={this.scrollToContact}>Contact</Link>
+                                        <Link className="nav-link" to="/my-restaurant/" onClick={this.scrollToContact}>Contact</Link>
                                     </li>
                                 </ul>
                             </div>
                             
                             <div className="nav-button">
-                                <Link className="nav-link" to="/" onClick={this.scrollToReservation}>
+                                <Link className="nav-link" to="/my-restaurant/" onClick={this.scrollToReservation}>
                                     <button className="btn-reservations" onClick={this.scrollToReservation}>Reservations </button>
                                 </Link>
                                 
-                                <Link className="nav-link" to="/order" onClick={this.setMobileScreen}>
+                                <Link className="nav-link" to="/my-restaurant/order" onClick={this.setMobileScreen}>
                                     <button className="btn-order">Order Online</button>
                                 </Link>
                                 

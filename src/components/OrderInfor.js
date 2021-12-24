@@ -32,7 +32,7 @@ class OrderInfor extends React.Component {
                     <img className={this.state.scrollOrderInfor?"animate__animated animate__fadeIn":""} src="./soup.png" alt="anh"></img>
                     <h1 className={this.state.scrollOrderInfor?"animate__animated animate__fadeIn":""}>Soups</h1>
                     <p className={this.state.scrollOrderInfor?"animate__animated animate__fadeIn":""}>Our bowls of endless<br/> flavors from the east</p>
-                    <Link to="/order">
+                    <Link to="/my-restaurant/order">
                         <button className={this.state.scrollOrderInfor?"btn-reservations animate__animated animate__fadeIn":""} >Order Now</button>
                     </Link>
                 </div>
@@ -40,7 +40,7 @@ class OrderInfor extends React.Component {
                     <img className={this.state.scrollOrderInfor?"animate__animated animate__fadeIn":""} src="./noodle.png" alt="anh"></img>
                     <h1 className={this.state.scrollOrderInfor?"animate__animated animate__fadeIn":""}>Noodles</h1>
                     <p className={this.state.scrollOrderInfor?"animate__animated animate__fadeIn":""}>The way noodles were<br/> meant to be</p>
-                    <Link to="/order">
+                    <Link to="/my-restaurant/order">
                         <button className={this.state.scrollOrderInfor?"btn-reservations animate__animated animate__fadeIn":""}>Order Now</button>
                     </Link>
                 </div>
@@ -48,7 +48,7 @@ class OrderInfor extends React.Component {
                     <img className={this.state.scrollOrderInfor?"animate__animated animate__fadeIn":""} src="./dumpling.png" alt="anh"></img>
                     <h1 className={this.state.scrollOrderInfor?"animate__animated animate__fadeIn":""}>Dumplings</h1>
                     <p className={this.state.scrollOrderInfor?"animate__animated animate__fadeIn":""}>It’s all about the filling.<br/> And the dough</p>
-                    <Link to="/order">
+                    <Link to="/my-restaurant/order">
                         <button className={this.state.scrollOrderInfor?"btn-reservations animate__animated animate__fadeIn":""}>Order Now</button>
                     </Link>
                 </div>

@@ -8,7 +8,7 @@ class Banner extends React.Component {
                 <h1>The Real Deal </h1>
                 <h1>On Asian Food</h1>
                 <p>The noodle way serves authentic asian food</p>
-                <Link to="/order">
+                <Link to="/my-restaurant/order">
                     <button>Order Now</button>
                 </Link>
                 
