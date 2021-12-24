@@ -58,7 +58,7 @@ class Navbar extends React.Component {
                     
                     <div className="container">
                         <Link className="navbar-logo" to="/my-restaurant/">
-                             <img src='./assets/logoPage.png' alt="logo" />MY <br/>RESTAURANT
+                             <img src='/logoPage.png' alt="logo" />MY <br/>RESTAURANT
                         </Link>
                         <div className={this.state.mobileScreen?"container-nav":"container-nav-hidden"}>
                             <div className="nav-div">
