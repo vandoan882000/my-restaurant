@@ -1,0 +1,134 @@
+.about-container{
+    display: flex;
+    height: 860px;
+    background-image: url('assets/about.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column; 
+    color: #fff;
+    padding-left: 90px;
+}
+.about-container h1{
+    font-size:45px;
+
+}
+.about-container p{
+    font-size:20px;
+    line-height: 30px;
+    
+}
+.book{
+    display: flex;
+}
+.order-online-container{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height:600px;
+    align-items: center;
+    justify-content: center;
+
+}
+.reservation-online-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height:600px;
+    background-color: #df080f;
+}
+.reservation-online-container p{
+    font-size:30px;
+    color:#fff;
+    
+}
+.reservation-online-container h1{
+    font-size:43px;
+    color:#fff;
+}
+.reservation-online-container input,select,button{
+    width: 442px;
+    height:42px;
+    background: #df080f ;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.btn-booknow{
+    width: 442px;
+    height:42px;
+    background: #fff ;
+    color:#df080f;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn-booknow:hover{
+    background: rgb(228, 224, 224) ;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 242, 217);
+    padding-bottom: 20px;
+}
+.contact-container div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content:center;
+    position: relative;
+
+}
+.contact-container img{
+    width: 250px;
+    height:250px;
+    margin: 6px;
+    cursor: pointer;
+
+}
+.fa-heart{
+    font-size:20px;
+    color: #df080f;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+@media only screen and (max-width: 650px) {
+    .about-container{
+        
+        padding-left: 10px;
+    }
+    .book{
+        flex-direction:column;
+        text-align: center;
+    }
+    .reservation-online-container{
+        width: 100%;
+    }
+    .order-online-container{
+        width: 100%;
+    }
+    .reservation-online-container input,select,option,button{
+        width: 80%;
+    }
+    .btn-booknow{
+        width: 80%;
+    }
+    .contact-container{
+        height:auto;
+    }
+    .contact-container div{
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
